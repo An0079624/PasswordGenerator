@@ -9,4 +9,7 @@ for _ in range(9):
 password += secrets.choice(string.ascii_uppercase)
 password += secrets.choice(string.digits)
 password += secrets.choice(symbols)
+
+
+
 print(password)
